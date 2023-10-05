@@ -1,4 +1,4 @@
-public class Selection{
+public class Bubble{
 
 	 static void bubbleSort(int[] arr) {  
         int n = arr.length;  
