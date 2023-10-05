@@ -19,16 +19,16 @@ public class Bubble{
 		int[] arr={64,25,11,15,89};
 
 		System.out.println("Before Bubble Sort");  
-        for(int i:arr){  
-            System.out.print(i+" ");  
-        }  
-        System.out.println();  
+	        for(int k=0;k<n;k++){  
+	            System.out.print(i+" ");  
+	        }  
+        	System.out.println();  
           
-        bubbleSort(arr);
+        	bubbleSort(arr);
          
-        System.out.println("After Bubble Sort");  
-        for(int i:arr){  
-            System.out.print(i+" ");  
-        }  
+        	System.out.println("After Bubble Sort");  
+        	for(int k=0;k<n;k++){  
+            		System.out.print(i+" ");  
+        	}  
 	}
 }
